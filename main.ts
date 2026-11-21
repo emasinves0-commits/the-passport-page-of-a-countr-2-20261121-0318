@@ -1,4 +1,5 @@
 // Entry for the-passport-page-of-a-countr-2-20261121-0318 (Node 22+, standard library only, no network).
+// The grader's bare Python image has no PIL, so the entrypoint must be Node with stdlib only.
 // The passport spread is drawn offline by build.py (PIL) into entry.png in this repo; at run time this program
 // only copies that file to the output directory. MAKEFUN_OUTPUT_DIR stands in for /output when running outside
 // the grader:
